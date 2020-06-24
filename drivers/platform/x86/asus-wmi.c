@@ -111,6 +111,8 @@ struct bios_args {
 	u32 arg0;
 	u32 arg1;
 	u32 arg2; /* At least TUF Gaming series uses 3 dword input buffer. */
+	u32 arg3; /* At least ROG Zephyrus G14 series uses 5 dword input buffer */
+	u32 arg4;
 } __packed;
 
 /*
